@@ -29,11 +29,11 @@ public class Main {
         System.out.println();
         //Task 4
         var friend = 19;
-        var friendAdd = friend + 2;
-        var friendMinus = friendAdd / 7;
         System.out.println(friend);
-        System.out.println(friendAdd);
-        System.out.println(friendMinus);
-
+        friend = friend + 2;
+        System.out.println(friend);
+        friend = friend / 7;
+        System.out.println(friend);
+        System.out.println();
     }
 }
