@@ -18,5 +18,14 @@ public class Main {
         System.out.println("dog + 4 = "+ Dog);
         System.out.println("cat + 4 = "+ Cat);
         System.out.println("paper + 4 = "+ Paper);
+        System.out.println();
+        //Task 3
+        var DogMinus = dog - 3.5;
+        var CatMinus = cat - 1.6;
+        var PaperMinus = paper - 7639;
+        System.out.println("dog - 3.5 = "+ DogMinus);
+        System.out.println("cat - 1.6 = "+ CatMinus);
+        System.out.println("paper - 7639 = "+ PaperMinus);
+        System.out.println();
     }
 }
