@@ -69,5 +69,11 @@ public class Main {
 
         System.out.println("Общая масса двух бойцов: " + totalWeight +"кг");
         System.out.println("Разница между массами бойцов: " + weightDifference +"кг");
+
+        System.out.println();
+
+        // Task 7
+        var remaider = boxer2 % boxer1;
+        System.out.println("Остаток от деления между двумя весами: " + remaider);
     }
 }
