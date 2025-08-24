@@ -75,5 +75,19 @@ public class Main {
         // Task 7
         var remaider = boxer2 % boxer1;
         System.out.println("Остаток от деления между двумя весами: " + remaider);
+
+        System.out.println();
+
+        // Task 8
+        var totalHours = 640;
+        var hoursPerEmployee = 8;
+
+        var numberOfEmloyees = totalHours / hoursPerEmployee;
+        System.out.println("Всего работников в компании: " + numberOfEmloyees + "человек");
+
+        var addEmloyees = 94;
+        var newNumberEmloyees = numberOfEmloyees + addEmloyees;
+        var newTotalHours = newNumberEmloyees * hoursPerEmployee;
+        System.out.println("Если в компании работает "+ newNumberEmloyees + " человек, то кол-во часов:" + newTotalHours);
     }
 }
