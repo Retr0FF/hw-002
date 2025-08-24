@@ -27,5 +27,13 @@ public class Main {
         System.out.println("cat - 1.6 = "+ CatMinus);
         System.out.println("paper - 7639 = "+ PaperMinus);
         System.out.println();
+        //Task 4
+        var friend = 19;
+        var friendAdd = friend + 2;
+        var friendMinus = friendAdd / 7;
+        System.out.println(friend);
+        System.out.println(friendAdd);
+        System.out.println(friendMinus);
+
     }
 }
